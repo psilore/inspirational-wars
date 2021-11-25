@@ -43,7 +43,7 @@ function setFactionColors(faction) {
 
 
 function fetchNewQoute() {
-  const fetchPromise = fetch("./qoutes.json");
+  const fetchPromise = fetch("./dist/qoutes.json");
   fetchPromise.then(response => {
     return response.json();
     }).then(body => { 
