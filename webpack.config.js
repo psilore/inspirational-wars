@@ -13,7 +13,7 @@ module.exports = {
         },
         {
           from: "./quotes.json",
-          to: `/dist/quotes.json`,
+          to: `${__dirname}/dist/qoutes.json`,
         }
       ],
     }),

@@ -1,5 +1,3 @@
-import qoutes from './qoutes.json';
-
 const init = () => {
   fetchNewQoute();
   setFactionColors();
