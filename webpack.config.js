@@ -15,6 +15,10 @@ module.exports = {
           from: "./qoutes.json",
           to: "./dist"
         },
+        {
+          from: "./inspirational-vader.png",
+          to: "./dist"
+        },
       ],
     }),
   ],
